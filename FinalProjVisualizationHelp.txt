@@ -1,0 +1,23 @@
+Commands:
+
+- [bar|pie|scatter|bubble], required
+    - Visualize results and get recommendation restaurants info, according to the specified parameters.
+
+Parameters:
+
+- [none|rating|price|review], default=none
+    - Only 'bar' command has four valid parameters. 'pie' command has three parameters except for 'none'. 'scatter' and 'bubble' ignore.
+- [2d|3d], 'scatter' required
+    - Only 'scatter' command requires this parameter.
+
+Valid Command List:
+[1]  bar
+[2]  bar rating
+[3]  bar price
+[4]  bar review
+[5]  pie rating
+[6]  pie price
+[7]  pie review
+[8]  scatter 2d
+[9]  scatter 3d
+[10] bubble
